@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>George Wang</title>
+  
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      background-color: rgb(143, 164, 165);
+    }
+    * {
+      border: 1px solid black;
+      background-color: cadetblue;
+    }
+    ul {
+      list-style-type: none;
+      padding: 0px;
+    }
+    .flex {
+      display: flex;
+    }
+    .whitesmoke {
+      background-color: whitesmoke;
+    }
+    .col {
+      flex-direction: column;
+    }
+    .skill {
+      background-color: rgba(0, 255, 255, 0.434);
+      margin: 5px 5px;
+    }
+    .center {
+      align-items: center;
+    }
+</style>
+
+</head>
+
+
+<body class="flex col">
+  
+  <!-- HEADER -->
+  <div style="height: 4rem;" class="whitesmoke">
+    This is header, add things here
+    left is icon
+    right are dark mode react-icon for github, linkedin, resume
+    AND
+    About, Projects
+    MAYBE CHANGE TO REM
+  </div>
+  
+  <!-- ABOUT -->
+  <div style="align-items: center;" class="flex col">
+    <img alt="logo" src="./icon.png" width="300px" height="300px">
+    <h3>George Wang</h3>
+    <ul style="margin: 5px;" class="flex">
+      <li class="skill">exploration</li>
+      <li class="skill">determination</li>
+      <li class="skill">persipiration</li>
+    </ul>
+    <p style="margin: 10px 0px; width: 50%;">I am an aspiring Computer Science student at the Unviersity of Waterloo. Interested in Computer Networks, Algorithms and Machine Learning.</p>
+  </div>
+  
+  <!-- PROJECTS -->
+  <h2 style="text-align: center; margin-top: 100px;">Projects</h2>
+  <ul style="justify-content: center;" class="flex">
+    <li>project1</li>
+    <li>project2</li>
+    <li>project3</li>
+  </ul>
+</body>
+
+</html>
