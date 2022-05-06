@@ -1,6 +1,8 @@
 import styles from './App.module.scss';
-import { BrowserRouter, Link, Route, Routes } from 'react-router-dom';
-import Home from "./Home"
+// import { BrowserRouter, Link, Route, Routes } from 'react-router-dom';
+import Home from "./Home";
+import { FiGithub, FiLinkedin, FiFileText } from 'react-icons/fi';
+import pdf from './resume.pdf';
 
 function App() {
   return (
@@ -11,10 +13,9 @@ function App() {
         <div className={styles.box}>
           {/* <div className={styles.boxleft}>George Wang</div> */}
           <div className={styles.boxright}>
-            <p>make header constant appear with shadow</p>
-            <p>ICONS NOT FINISHED</p>
-            <p>About</p>
-            <p>Projects</p>
+            <a href='https://github.com/ZhengWang26'> <FiGithub size={40} style={{color: 'black'}} /> </a>
+            <a href='https://www.linkedin.com/in/zhengwang26/'> <FiLinkedin size={40} style={{color: 'black'}} /> </a>
+            <a href = {pdf}> <FiFileText size={40} style={{color: 'black'}} /> </a>
           </div>
         </div>
       </header>
@@ -32,7 +33,7 @@ function App() {
       {/* footer */}
       <footer className={styles.footer}>
         <p>© <b>2022 George Wang</b></p>
-        <p>Feels Love ❤️</p>
+        <p>Made with ❤️</p>
       </footer>
 
     </div>

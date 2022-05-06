@@ -1,5 +1,6 @@
 
 .worklist{
+  // width: 100%;
   ul{
     // border: 1px black solid;
     display: flex;
@@ -7,7 +8,7 @@
     // justify-content: flex-start;
     // align-items: flex-start;
     flex-wrap: wrap;
-
+    width: 100vw;
     li{
       // border: 1px solid black;
       width: 49.71%;
@@ -22,6 +23,13 @@
             width: 150px;
             height: 150px;
             border-radius: 5%;
+          }
+          @media screen and (max-width: 700px) {
+            img {
+              width: 100px;
+              height: 100px;
+              border-radius: 5%;
+            }
           }
         }
         .workbrief{
