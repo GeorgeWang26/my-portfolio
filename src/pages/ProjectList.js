@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import styles from "./ProjectList.module.scss"
 
 const ProjectList = ({dataSource}) => {
@@ -7,20 +6,21 @@ const ProjectList = ({dataSource}) => {
     <div className={ styles.worklist }>
       <ul>
         {
-          dataSource && dataSource.map(item=>
+          dataSource && dataSource.map(item =>
             <li key={item.id}>
-              {/* <Link to={ `/works/${item.id}` }> */}
-                <div className={ styles.cover }>
-                  <img src={ item.cover } />
+              <a href={item.link}>
+                <div className={styles.cover}>
+                  <img src={item.cover} />
                 </div>
+
                 <div className={styles.workbrief}>
                   <h3>{item.title}</h3>
-                  {/* <p>{item.brief}</p> */}
-                  {/* <div className={styles.tag}>
-                    { item.tags && item.tags.map(i=><span key={i}>{i}</span>) }
-                  </div> */}
+                  <p>{item.brief}</p>
+                  <div className={styles.tag}>
+                    {item.tags && item.tags.map(i => <span key={i}>{i}</span>)}
+                  </div>
                 </div>
-              {/* </Link> */}
+              </a>
             </li>
           )
         }

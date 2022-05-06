@@ -12,13 +12,16 @@ const Home = () => {
         <img src={require("./selfie.png")} />
         <h2>George Wang</h2>
         <ul>
-          <li>Curiousity</li>
+          {/* <li>Curiosity</li>
           <li>Creativity</li>
-          <li>Tenacity</li>
+          <li>Tenacity</li> */}
+          <li>Computer Networks</li>
+          <li>Machine Learning</li>
+          <li>Blockchain</li>
         </ul>
-        <p>I am an aspiring Computer Science student at the Unviersity of Waterloo. Interested in Computer Networks, Algorithms and Machine Learning.</p>
-        <p>Contact me <b>@</b> wzheng2013@gmail.com</p>
-        <p><b>MAKE THIS A LINK TO EMAIL WITH UNDERSCORE</b></p>
+        {/* <p>I am an aspiring Computer Science student at the Unviersity of Waterloo. Interested in Computer Networks, Algorithms and Machine Learning.</p> */}
+        <p>An aspiring Computer Science student at the Unviersity of Waterloo.</p>
+        <p>Contact me <b>@</b> <a href="mailto:wzheng2013@gmail.com" style={{color:'#00aaff', fontStyle:'italic'}}>wzheng2013@gmail.com</a></p>
       </section>
 
       {/* list of projects */}
@@ -26,7 +29,7 @@ const Home = () => {
         <div className={styles.title}>
           <h3>Projects</h3>
         </div>
-        <ProjectList dataSource = {projectData.data} />
+        <ProjectList dataSource={projectData.data} />
       </section>
     </div>
   )

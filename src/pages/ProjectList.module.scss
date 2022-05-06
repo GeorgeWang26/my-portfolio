@@ -1,49 +1,65 @@
 
 .worklist{
   ul{
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      flex-wrap: wrap;
-       li{
-          width: 45%;            
-          margin-bottom: 45px;
-          a{
-            display: inline-flex;
-            justify-content: space-between;
-            .cover{
-              img{
-                width: 100px;
-                border-radius: 5px;
-              }
+    border: 1px black solid;
+    display: flex;
+    // justify-content: space-between;
+    // justify-content: flex-start;
+    // align-items: flex-start;
+    flex-wrap: wrap;
+
+    li{
+      border: 1px solid black;
+      width: 49.71%;
+      // width: 45%;
+      padding: 30px 0px;
+      a{
+        display: inline-flex;
+        justify-content: space-between;
+        .cover{
+          // border: 1px solid red;
+          img{
+            width: 150px;
+            height: 150px;
+            border-radius: 5%;
+          }
+        }
+        .workbrief{
+          // border: 1px solid green;
+          text-align: left;
+          padding-left: 15px;
+          h3{
+            font-size: 18px;
+            color: rgb(51, 51, 51);
+          }
+          p{
+            padding: 8px 0px;
+            color: rgba(0, 0, 0, 0.7);
+            line-height: 1.8;
+          }
+          .tag{
+            // border: 1px solid blue;
+            display: flex;
+            justify-content: flex-start;
+            flex-wrap: wrap;
+            span{
+              color: rgba(0, 0, 0, 0.55);
+              font-size: 14px;
             }
-            .workbrief{
-              text-align: left;
-              padding-left: 15px;
-              h3{
-                font-size: 18px;
-                color: rgb(51, 51, 51);
-              }
-              p{
-                padding: 8px 0px;
-                color: rgba(0, 0, 0, 0.7);
-                line-height: 1.8;
-              }
-              .tag{
-                display: flex;
-                justify-content: flex-start;
-                flex-wrap: wrap;
-                span{
-                  color: rgba(0, 0, 0, 0.55);
-                  font-size: 14px;
-                }
-                span:not(:last-child)::after {
-                  content: "•";
-                  padding: 0px 0.5em;
-                }
-              }
+            span:not(:last-child)::after {
+              content: "•";
+              padding: 0px 0.5em;
             }
           }
-       }
+        }
+      }
     }
+  }
+  @media screen and (max-width: 1000px) {
+    ul{
+      flex-direction: column;
+      // justify-content: space-evenly;
+      align-items: center;
+    }
+  }
 }

@@ -9,7 +9,7 @@ function App() {
       {/* header */}
       <header className={styles.header}>
         <div className={styles.box}>
-          <div className={styles.boxleft}>George Wang</div>
+          {/* <div className={styles.boxleft}>George Wang</div> */}
           <div className={styles.boxright}>
             <p>make header constant appear with shadow</p>
             <p>ICONS NOT FINISHED</p>
@@ -21,18 +21,18 @@ function App() {
 
       {/* content */}
       <section className={styles.content}>
-        {/* <Home /> */}
-      <BrowserRouter>
+        <Home />
+      {/* <BrowserRouter>
         <Routes>
           <Route path="/" exact element={ <Home /> } />
         </Routes>
-      </BrowserRouter>
+      </BrowserRouter> */}
       </section>
 
       {/* footer */}
       <footer className={styles.footer}>
         <p>© <b>2022 George Wang</b></p>
-        <p>Feels Love</p>
+        <p>Feels Love ❤️</p>
       </footer>
 
     </div>
