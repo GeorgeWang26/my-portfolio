@@ -4,12 +4,14 @@ import ProjectList from './ProjectList'
 import projectData from "./projects.json"
 
 const Home = () => {
+  // const pic=require("./selfie.png");
+  // console.log(pic == "./selfie.png");
   return (
     <div className={styles.wrap}>
       
       {/* introduction of myself */}
       <section className={styles.brief}>
-        <img src={require("./selfie.png")} alt="selfie" />
+        <img src={require("../assets/selfie.png")} alt="selfie" />
         <h2>George Wang</h2>
         <ul>
           {/* <li>Curiosity</li>

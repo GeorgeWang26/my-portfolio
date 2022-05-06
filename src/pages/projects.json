@@ -3,7 +3,6 @@
     "title":"Chat Room",
     "brief":"Synchronous chat server that allows users to communicate via direct message, group chat and broadcast.",
     "tags":["Python", "TCP/IP", "select"],
-    "cover":"https://zhtutorial.oss-cn-hangzhou.aliyuncs.com/react/website/cover1.jpg",
     "link":"https://github.com/ZhengWang26/ChatRoom",
     "id":1
   },
@@ -11,40 +10,35 @@
     "title":"VR Robotic Car",
     "brief":"A teleop robotic car with camera onboard. Uses OpenCV to create VR stream of the front view for the user.",
     "tags":["Python", "Raspberry Pi", "UDP", "OpenCV", "Flask", "motor control"],
-    "cover":"https://zhtutorial.oss-cn-hangzhou.aliyuncs.com/react/website/cover2.jpg",
-    "link":"https://github.com/ZhengWang26",
+    "link":"https://github.com/ZhengWang26/RoboticCar",
     "id":2
   },
   {
     "title":"Smartendance",
     "brief":"Cloud based attendance tracking tool that uses face recognition to automate the process.",
     "tags":["Python", "AWS", "REST", "Flask", "MongoDB", "SSL/TLS"],
-    "cover":"https://zhtutorial.oss-cn-hangzhou.aliyuncs.com/react/website/cover3.jpg",
-    "link":"https://github.com/ZhengWang26",
+    "link":"https://github.com/ZhengWang26/Smartendance",
     "id":3
   },
   {
     "title":"SimuStocks",
     "brief":"A real time stock market simulator that allows users to practise trading with virtual balance.",
-    "tags":["Python", "REST", "Flask", "MongoDB", "Beautiful Soup"],
-    "cover":"https://zhtutorial.oss-cn-hangzhou.aliyuncs.com/react/website/cover4.jpg",
-    "link":"https://github.com/ZhengWang26",
+    "tags":["Python", "REST", "Flask", "MongoDB", "Bootstrap", "Beautiful Soup"],
+    "link":"https://github.com/ZhengWang26/SimuStocks",
     "id":4
   },
   {
     "title":"Teleop Maze",
     "brief":"A maze that is remotely controlled by the positioning of user's mobile device.",
     "tags":["Python", "Raspberry Pi", "UDP", "Android", "servo motor"],
-    "cover":"https://zhtutorial.oss-cn-hangzhou.aliyuncs.com/react/website/cover5.jpg",
-    "link":"https://github.com/ZhengWang26",
+    "link":"https://github.com/ZhengWang26/Telemetry",
     "id":5
   },
   {
     "title":"Minesweeper",
     "brief":"Minesweeper GUI application with multiple difficulty levels developed using Java Swing.",
     "tags":["Java", "OOP"],
-    "cover":"https://zhtutorial.oss-cn-hangzhou.aliyuncs.com/react/website/cover6.jpg",
-    "link":"https://github.com/ZhengWang26",
+    "link":"https://github.com/ZhengWang26/MineSweeper",
     "id":6
   }
 ]

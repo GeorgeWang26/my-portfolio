@@ -2,7 +2,7 @@ import styles from './App.module.scss';
 // import { BrowserRouter, Link, Route, Routes } from 'react-router-dom';
 import Home from "./Home";
 import { FiGithub, FiLinkedin, FiFileText } from 'react-icons/fi';
-import pdf from './resume.pdf';
+// import pdf from '../assets/resume.pdf';
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
           <div className={styles.boxright}>
             <a href='https://github.com/ZhengWang26'> <FiGithub size={40} style={{color: 'black'}} /> </a>
             <a href='https://www.linkedin.com/in/zhengwang26/'> <FiLinkedin size={40} style={{color: 'black'}} /> </a>
-            <a href = {pdf}> <FiFileText size={40} style={{color: 'black'}} /> </a>
+            <a href = {require("../assets/resume.pdf")}> <FiFileText size={40} style={{color: 'black'}} /> </a>
           </div>
         </div>
       </header>

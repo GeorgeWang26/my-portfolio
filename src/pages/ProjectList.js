@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from "./ProjectList.module.scss"
+import images from "./projectCover"
 
 const ProjectList = ({dataSource}) => {
   return (
@@ -10,7 +11,7 @@ const ProjectList = ({dataSource}) => {
             <li key={item.id}>
               <a href={item.link}>
                 <div className={styles.cover}>
-                  <img src={item.cover} alt="project-icon"/>
+                  <img src={images[item.id]} alt="project-icon"/>
                 </div>
 
                 <div className={styles.workbrief}>
