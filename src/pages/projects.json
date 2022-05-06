@@ -1,78 +1,50 @@
-{
-  "code":200,
-  "msg": "请求成功!",
-  "data": [
-    {
-        "title":"StaffTraveler",
-        "brief":"A community driven app which allows airline staff to request and share loads information for non-rev flights",
-        "tags":[ "nodejs","react","styled components","google cloud platform","typescript","kubernetes","react native" ],
-        "cover":"https://zhtutorial.oss-cn-hangzhou.aliyuncs.com/react/website/cover1.jpg",
-        "link":"https://github.com/ZhengWang26",
-        "id":1
-    },
-    {
-        "title":"Vauxlab 2017",
-        "brief":"About this website, and what makes it awesome.",
-        "tags":[ "react","gatsby","styled components","contentful" ],
-        "cover":"https://zhtutorial.oss-cn-hangzhou.aliyuncs.com/react/website/cover2.jpg",
-        "link":"https://github.com/ZhengWang26",
-        "id":2
-    },
-    {
-        "title":"Re:Fuse",
-        "brief":"Fusing reactive programming with audiovisual composition using web technologies",
-        "tags":[ "web audio","nodejs","rx.js" ],
-        "cover":"https://zhtutorial.oss-cn-hangzhou.aliyuncs.com/react/website/cover3.jpg",
-        "link":"https://github.com/ZhengWang26",
-        "id":3
-    },
-    {
-        "title":"Kaliber",
-        "brief":"Front-end development for a digital media agency",
-        "tags":[ "postcss","react","redux" ],
-        "cover":"https://zhtutorial.oss-cn-hangzhou.aliyuncs.com/react/website/cover4.jpg",
-        "link":"https://github.com/ZhengWang26",
-        "id":4
-    },
-    {
-        "title":"NLN Live",
-        "brief":"A system for non-linear composition and live performance",
-        "tags":[ "nodejs","react","mongodb" ],
-        "cover":"https://zhtutorial.oss-cn-hangzhou.aliyuncs.com/react/website/cover5.jpg",
-        "link":"https://github.com/ZhengWang26",
-        "id":5
-    },
-    {
-        "title":"Coca-Cola Cascada",
-        "brief":"A huge interactive installation with generative graphics, music and sound",
-        "tags":[ "max" ],
-        "cover":"https://zhtutorial.oss-cn-hangzhou.aliyuncs.com/react/website/cover6.jpg",
-        "link":"https://github.com/ZhengWang26",
-        "id":6
-    },
-    {
-        "title":"4D Sound",
-        "brief":"A novel immersive system which allows for evolving changes in three-dimensional positioning of sound.",
-        "tags":[ "max","c/c++" ],
-        "cover":"https://zhtutorial.oss-cn-hangzhou.aliyuncs.com/react/website/cover7.jpg",
-        "link":"https://github.com/ZhengWang26",
-        "id":7
-    },
-    {
-        "title":"4D Sound",
-        "brief":"A novel immersive system which allows for evolving changes in three-dimensional positioning of sound.",
-        "tags":[ "max","c/c++" ],
-        "cover":"https://zhtutorial.oss-cn-hangzhou.aliyuncs.com/react/website/cover7.jpg",
-        "link":"https://github.com/ZhengWang26",
-        "id":8
-    },
-    {
-        "title":"4D Sound",
-        "brief":"A novel immersive system which allows for evolving changes in three-dimensional positioning of sound.",
-        "tags":[ "max","c/c++" ],
-        "cover":"https://zhtutorial.oss-cn-hangzhou.aliyuncs.com/react/website/cover7.jpg",
-        "link":"https://github.com/ZhengWang26",
-        "id":9
-    }
-  ]
-}
+[
+  {
+    "title":"Chat Room",
+    "brief":"Synchronous chat server that allows users to communicate via direct message, group chat and broadcast.",
+    "tags":["Python", "TCP/IP", "select"],
+    "cover":"https://zhtutorial.oss-cn-hangzhou.aliyuncs.com/react/website/cover1.jpg",
+    "link":"https://github.com/ZhengWang26/ChatRoom",
+    "id":1
+  },
+  {
+    "title":"VR Robotic Car",
+    "brief":"A teleop robotic car with camera onboard. Uses OpenCV to create VR stream of the front view for the user.",
+    "tags":["Python", "Raspberry Pi", "UDP", "OpenCV", "Flask", "motor control"],
+    "cover":"https://zhtutorial.oss-cn-hangzhou.aliyuncs.com/react/website/cover2.jpg",
+    "link":"https://github.com/ZhengWang26",
+    "id":2
+  },
+  {
+    "title":"Smartendance",
+    "brief":"Cloud based attendance tracking tool that uses face recognition to automate the process.",
+    "tags":["Python", "AWS", "REST", "Flask", "MongoDB", "SSL/TLS"],
+    "cover":"https://zhtutorial.oss-cn-hangzhou.aliyuncs.com/react/website/cover3.jpg",
+    "link":"https://github.com/ZhengWang26",
+    "id":3
+  },
+  {
+    "title":"SimuStocks",
+    "brief":"A real time stock market simulator that allows users to practise trading with virtual balance.",
+    "tags":["Python", "REST", "Flask", "MongoDB", "Beautiful Soup"],
+    "cover":"https://zhtutorial.oss-cn-hangzhou.aliyuncs.com/react/website/cover4.jpg",
+    "link":"https://github.com/ZhengWang26",
+    "id":4
+  },
+  {
+    "title":"Teleop Maze",
+    "brief":"A maze that is remotely controlled by the positioning of user's mobile device.",
+    "tags":["Python", "Raspberry Pi", "UDP", "Android", "servo motor"],
+    "cover":"https://zhtutorial.oss-cn-hangzhou.aliyuncs.com/react/website/cover5.jpg",
+    "link":"https://github.com/ZhengWang26",
+    "id":5
+  },
+  {
+    "title":"Minesweeper",
+    "brief":"Minesweeper GUI application with multiple difficulty levels developed using Java Swing.",
+    "tags":["Java", "OOP"],
+    "cover":"https://zhtutorial.oss-cn-hangzhou.aliyuncs.com/react/website/cover6.jpg",
+    "link":"https://github.com/ZhengWang26",
+    "id":6
+  }
+]

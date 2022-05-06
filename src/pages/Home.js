@@ -29,7 +29,7 @@ const Home = () => {
         <div className={styles.title}>
           <h3>Projects</h3>
         </div>
-        <ProjectList dataSource={projectData.data} />
+        <ProjectList dataSource={projectData} />
       </section>
     </div>
   )
