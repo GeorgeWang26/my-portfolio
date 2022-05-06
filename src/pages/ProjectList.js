@@ -10,7 +10,7 @@ const ProjectList = ({dataSource}) => {
             <li key={item.id}>
               <a href={item.link}>
                 <div className={styles.cover}>
-                  <img src={item.cover} />
+                  <img src={item.cover} alt="project-icon"/>
                 </div>
 
                 <div className={styles.workbrief}>

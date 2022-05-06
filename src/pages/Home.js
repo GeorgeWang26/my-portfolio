@@ -9,7 +9,7 @@ const Home = () => {
       
       {/* introduction of myself */}
       <section className={styles.brief}>
-        <img src={require("./selfie.png")} />
+        <img src={require("./selfie.png")} alt="selfie" />
         <h2>George Wang</h2>
         <ul>
           {/* <li>Curiosity</li>
