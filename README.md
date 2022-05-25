@@ -1,4 +1,4 @@
 # npm 8.9.0
 
-npm install
-npm start
+npm install \n
+npm start \n
